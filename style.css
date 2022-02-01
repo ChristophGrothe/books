@@ -1,0 +1,123 @@
+/***GENERAL***/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*text-shadow: 2px 2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000, 2px 0px 0 #000, 0px 2px 0 #000, -2px 0px 0 #000, 0px -2px 0 #000;*/
+  background-color: black;
+  color: white;
+}
+
+li {
+  font-size: 1.25em;
+  font-weight:bold;
+  color: white;
+  list-style-type: none;
+}
+
+header, footer {
+  background-image: url("https://github.com/ChristophGrothe/books/blob/main/old-typo-dark.jpg?raw=true");
+}
+
+header {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 3fr;
+  height: 8em;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+}
+
+.about {
+  grid-column-start: 2;
+}
+
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 3fr 1fr;
+  height: 8em;
+  width: 100%;
+  align-items: center;
+}
+
+footer li {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 1em 0;
+}
+main {
+  display: grid;
+  grid-template: 0.5fr 20em 0.5fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 2.5em;
+  height: 130em;
+  margin: 2.5em;
+  justify-items: center;
+  align-items: center;
+  line-height: 1.5em
+}
+
+.old {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  border-radius: 2.5em;
+}
+
+.lamps {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  border-radius: 2.5em;
+  height: 100%;
+  width: auto;
+}
+
+.bible {
+  border-radius: 2.5em;
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+.opened {
+  border-radius: 2.5em;
+  grid-row-start: 4;
+  grid-column-start: 2;
+  height: 100%;
+}
+
+.library {
+  border-radius: 2.5em;
+  grid-row-start: 5;
+  grid-column-start: 2;
+}
+
+.p-question {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+.p-coffee {
+  grid-row-start: 3;
+}
+
+.p-activities {
+  grid-row-start: 4;
+  grid-column-start: 3;
+}
+
+.p-Maria {
+  grid-row-start: 5;
+}
+
+.godric {
+  grid-column-start: 2;
+}
+.oxford {
+  grid-column-start: 4;
+}
+
+
+
